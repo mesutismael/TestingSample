@@ -86,12 +86,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     //Celcius to Fahrenhiet method
-    private double convertCelcius2Fahrenhiet(double celcius)
+    public double convertCelcius2Fahrenhiet(double celcius)
     {
         return (celcius*9)/5+32;
+
+
     }
     //Fahrenhiet to Celcius method
-    private double convertFahrenhiet2Celcius(double fahrenhiet)
+    public double convertFahrenhiet2Celcius(double fahrenhiet)
     {
         return (fahrenhiet-32)*5/9;
     }
